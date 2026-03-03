@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS clientes (
+	id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    fullName VARCHAR(100),
+    email VARCHAR(100),
+    activo BOOLEAN
+);
